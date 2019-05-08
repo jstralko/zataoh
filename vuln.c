@@ -5,6 +5,6 @@ void main(int argc, char *argv[]) {
 	printf("Done!\n");
 }
 int copier(char *str) {
-	char buffer[100];
+	char buffer[500];
 	strcpy(buffer, str);
 }
