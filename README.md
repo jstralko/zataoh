@@ -1,5 +1,4 @@
-# zataoh
-# Zen and the Art of Hacking
+# Zen and the Art of Hacking (zataoh)
 
 ## Build:
 ```shell
@@ -11,6 +10,7 @@ buffer lives in between esp and ebp
 ```shell
 info registers
 x/30x $esp
+x/2x $ebp
 ```
 
 ## Run:
